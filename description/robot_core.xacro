@@ -16,7 +16,9 @@
     <material name="black">
         <color rgba="0 0 0 1"/>
     </material>
-
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
     <!-- base_link definition -->
     <link name="base_link">
         <!-- This is an empty link; you can add visuals or collision properties here if needed -->
@@ -32,7 +34,7 @@
             <material name="white"/>
         </visual>
         <collision>
-            <origin xyz="0.1 0 0.035" />
+            <origin xyz="0.2 0 0.035" />
             <geometry>
                 <box size="0.2 0.2 0.07"/>
             </geometry>
